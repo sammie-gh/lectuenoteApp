@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Course Title"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="text"
+           />
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Description"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="textImeMultiLine"
+             />
+
+        <EditText
+            android:id="@+id/edtLectName"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Lectures Name"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="textPersonName"
+           />
+
+
+        <EditText
+            android:id="@+id/edtYear"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Year Group"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:inputType="number"
+              />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_margin="8dp"
+                android:text="SELECT PDF"
+                android:layout_alignParentBottom="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:background="@drawable/input_background"
+
+                />
+
+            <Button
+                android:id="@+id/btnUp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_margin="8dp"
+                android:text="UPLOAD PDF"
+                android:layout_alignParentBottom="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:layout_weight="1"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

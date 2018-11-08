@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:andndroid="http://schemas.android.com/apk/res-auto"
+android:color="@color/materialBlue"
+    >
+
+<item>
+    <shape>
+        <solid android:color="@color/materialBlue"></solid>
+        <corners android:radius="25dp"/>
+        <padding
+
+            android:left="15dp"
+            android:bottom="15dp"
+            android:top="15dp"/>
+    </shape>
+</item>
+</ripple>

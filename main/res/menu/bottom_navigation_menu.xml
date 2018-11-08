@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+
+        android:title="Account">
+    </item>
+
+
+    <item
+        android:id="@+id/ic_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:enabled="true"
+        android:title="Settings">
+    </item>
+
+    <item
+        android:id="@+id/nav_more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_black_24dp"
+        android:title="More"
+       >
+
+</item>
+
+
+</menu>
